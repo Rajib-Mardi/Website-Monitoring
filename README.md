@@ -74,42 +74,42 @@ steps required to install docker
 ### Python script that sends an email notification when website is down
 
 
-* Python script utilizes the smtplib module to send an email notification if a site is down. Here's a summary:
+* Python script utilizes the ```smtplib module``` to send an email notification if a site is down. 
 
 1. SMTP Connection:
 
-* The script connects to the Gmail SMTP server (smtp.gmail.com) on port 587 using smtplib.SMTP.
+* The script connects to the Gmail SMTP server (```smtp.gmail.com```) on port 587 using ```smtplib.SMTP```.
 
 2.Start TLS Encryption:
 
-* It initiates a TLS (Transport Layer Security) encrypted connection with the SMTP server using starttls().
+* It initiates a TLS (Transport Layer Security) encrypted connection with the SMTP server using ```starttls()```.
 
 3.SMTP Extended Hello (EHLO):
 
-* The script sends an EHLO command to the SMTP server using ehlo() to identify itself.
+* The script sends an EHLO command to the SMTP server using ```ehlo()``` to identify itself.
 
 4. SMTP Authentication:
 
-* It logs in to the SMTP server using the provided email address (EMAIL_ADDRESS) and password (EMAIL_PASSWORD) for authentication with smtp.login().
+* It logs in to the SMTP server using the provided email address (```EMAIL_ADDRESS```) and password (```EMAIL_PASSWORD```) for authentication with smtp.login().
 
 5. Compose Email Message:
 
-* The email message is composed with a subject line "SITE DOWN" and a custom message (email_msg).
+* The email message is composed with a subject line "SITE DOWN" and a custom message (```email_msg```).
 
 6.Send Email:
 
-* It sends the email notification to the same email address (EMAIL_ADDRESS) from which it is logged in using smtp.sendmail().
+* It sends the email notification to the same email address (```EMAIL_ADDRESS```) from which it is logged in using smtp.sendmail().
 
 7. Environment Variables:
 
-* The script fetches the email address and password from environment variables EMAIL_ADDRESS and EMAIL_PASSWORD using os.environ.get().
+* The script fetches the email address and password from environment variables ```EMAIL_ADDRESS``` and ```EMAIL_PASSWORD``` using ```os.environ.get()```.
 
 * This script is used to monitor the status of a website and receive email notifications if the site goes down. It relies on Gmail's SMTP server for sending emails securely, and it uses environment variables to store sensitive information such as email credentials.
 
 
 
 
-####   Python script that automatically restarts the application & server when the application is down
+###   Python script that automatically restarts the application & server when the application is down
 
 
 1. restart_server_and_container() Function:
