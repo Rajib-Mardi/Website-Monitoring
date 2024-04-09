@@ -1,11 +1,3 @@
-Preparation steps
-
-
-1) create a ec2 intstance server on Aws platform 
-2) install Docker on the server
-3) Run nginx container 
-
-
 ### Demo Project:
 * Website Monitoring and Recovery
 ### Technologiesused:
@@ -16,7 +8,7 @@ Python, AWS , Docker, Linux
 
 * wrote a Python program that checks the endpoint, the application endpoint where the nginx is running, and checks the status of that application. makes an HTTP request to it and checks that we have a successful reply from the application, which has some problems or isn't accessible at all. Maybe the server is down or maybe the container is crashed. If that happens, the Python program will alert us or notify us through email when the website is down.
 
-configure the Python program to send email to our email address, and once we get notified per email, we will extend the Python logic to restart the Docker container on the server. If the server is not accessible, restart the server. 
+* configure the Python program to send email to our email address, and once we get notified per email, we will extend the Python logic to restart the Docker container on the server. If the server is not accessible, restart the server. 
 
 
 ### Create a server on a cloud platform
