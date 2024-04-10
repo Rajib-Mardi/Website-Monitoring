@@ -119,6 +119,11 @@ steps required to install docker
 * This script is used to monitor the status of a website and receive email notifications if the site goes down. It relies on Gmail's SMTP server for sending emails securely, and it uses environment variables to store sensitive information such as email credentials.
 
 
+![website-monitoring – website-monitoring py 23-03-2024 19_45_50](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/bd553717-5019-46e3-9333-9d66679a9ee6)
+
+
+
+![SITE DOWN - rajeevmardi111@gmail com - Gmail and 39 more pages - Profile 1 - Microsoft​ Edge 10-04-2024 23_47_37](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1319217a-238b-4851-be3c-522ea08c8689)
 
 
 ###   Python script that automatically restarts the application & server when the application is down
