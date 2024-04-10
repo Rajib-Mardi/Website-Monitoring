@@ -53,6 +53,10 @@ steps required to install docker
 #### access the nginx server using the public ip and port 8080
 
 
+![Welcome to nginx! - Brave 25-03-2024 19_19_57](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/d94e3559-05bb-47f8-8fa9-bc68e136ad50)
+
+
+
 ### Python script that monitors the website by accessing it and validating the HTTP response
 
 
