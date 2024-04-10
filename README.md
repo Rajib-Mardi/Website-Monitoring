@@ -146,7 +146,7 @@ steps required to install docker
 ![website-monitoring – website-monitoring py 24-03-2024 11_20_30](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6)
 
 
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6" width="48">
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6" width="800">
 
 
 2. restart_server_and_container() Function:
