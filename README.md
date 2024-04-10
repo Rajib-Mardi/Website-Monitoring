@@ -142,6 +142,11 @@ steps required to install docker
   * Prints the output of the Docker start command.
 
 
+ 
+![website-monitoring – website-monitoring py 24-03-2024 11_20_30](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6)
+
+
+
 
 
 
@@ -154,11 +159,12 @@ steps required to install docker
 * If the response status code is not '200', it prints "Application down fix it!" and sends a notification email using the ```send_notification()``` function.
 * If an exception occurs during the request (e.g., connection error), it prints the error message and sends a notification email.
 * If the application is not accessible at all, it sends a notification email and restarts both the server and the container using the ```restart_server_and_container()``` function.
+  
 
 2. Scheduler:
 
 * The script schedules the ```monitor_application()``` function to run every 5 seconds using the ```schedule``` module.
-* Inside the ```while True```` loop, it continuously checks for pending scheduled tasks and executes them.
+* Inside the ```while True``` loop, it continuously checks for pending scheduled tasks and executes them.
 
 
 
