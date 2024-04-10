@@ -146,6 +146,7 @@ steps required to install docker
  * Upon reaching the 'running' state, it waits for 100 seconds and then calls the ```restart_container()``` function.
  
 
+![website-monitoring – website-monitoring py 25-03-2024 11_17_34](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/ed4beb28-7232-4fa8-8693-c7a7ee2c969d)
 
 
 
@@ -162,9 +163,9 @@ steps required to install docker
 * If an exception occurs during the request (e.g., connection error), it prints the error message and sends a notification email.
 * If the application is not accessible at all, it sends a notification email and restarts both the server and the container using the ```restart_server_and_container()``` function.
 
-![website-monitoring – website-monitoring py 25-03-2024 11_17_34](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/ed4beb28-7232-4fa8-8693-c7a7ee2c969d)
 
-  
+  ![website-monitoring – website-monitoring py 25-03-2024 12_48_12](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1222ae49-b614-440e-a0c6-d2aec8687d21)
+
 
 2. Scheduler:
 
@@ -174,6 +175,7 @@ steps required to install docker
 
 
 
+![website-monitoring – website-monitoring py 25-03-2024 12_04_25](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/e87cada9-5658-49eb-b609-1d12b154c980)
 
 
 
