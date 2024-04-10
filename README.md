@@ -1,7 +1,7 @@
 ### Demo Project:
 * Website Monitoring and Recovery
 ### Technologiesused:
-Python, AWS , Docker, Linux
+* Python, AWS , Docker, Linux
 
 
 ###  Project Description:
@@ -55,6 +55,7 @@ steps required to install docker
 
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/d94e3559-05bb-47f8-8fa9-bc68e136ad50" width="800">
 
+---------------------------------------------------------------------------------
 
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/8e6648c5-90ee-44d2-bc1e-e1223690a5b3" width="800">
 
@@ -119,10 +120,11 @@ steps required to install docker
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/bd553717-5019-46e3-9333-9d66679a9ee6" width="800">
 
 
-
+----------------------------------------------------------------------------------------
 
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1319217a-238b-4851-be3c-522ea08c8689" width="800">
 
+-------------------------------------------------------------------------------------------
 ###   Python script that automatically restarts the application & server when the application is down
 
 
@@ -149,7 +151,7 @@ steps required to install docker
 
 
 
-
+-------------------------------------------------------------------------------
 
 ###  Python script continuously monitors the availability of an application by periodically sending an HTTP GET request to a specific URL.
 
@@ -163,7 +165,7 @@ steps required to install docker
 
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1222ae49-b614-440e-a0c6-d2aec8687d21" width="800">
 
-
+------------------------------------------------------
 2. Scheduler:
 
 * The script schedules the ```monitor_application()``` function to run every 5 seconds using the ```schedule``` module.
@@ -173,4 +175,4 @@ steps required to install docker
 
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/e87cada9-5658-49eb-b609-1d12b154c980" width="800">
 
-
+---------------------------------------------------------------------
