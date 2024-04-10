@@ -56,6 +56,10 @@ steps required to install docker
 ![Welcome to nginx! - Brave 25-03-2024 19_19_57](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/d94e3559-05bb-47f8-8fa9-bc68e136ad50)
 
 
+![MINGW64__c_Users_Rajib_Downloads 25-03-2024 11_17_50](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/8e6648c5-90ee-44d2-bc1e-e1223690a5b3)
+
+
+
 
 ### Python script that monitors the website by accessing it and validating the HTTP response
 
