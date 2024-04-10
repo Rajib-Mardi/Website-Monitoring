@@ -56,9 +56,11 @@ steps required to install docker
 ![Welcome to nginx! - Brave 25-03-2024 19_19_57](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/d94e3559-05bb-47f8-8fa9-bc68e136ad50)
 
 
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/d94e3559-05bb-47f8-8fa9-bc68e136ad50" width="800">
+
 ![MINGW64__c_Users_Rajib_Downloads 25-03-2024 11_17_50](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/8e6648c5-90ee-44d2-bc1e-e1223690a5b3)
 
-
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/8e6648c5-90ee-44d2-bc1e-e1223690a5b3" width="800">
 
 
 ### Python script that monitors the website by accessing it and validating the HTTP response
@@ -80,6 +82,7 @@ steps required to install docker
 
 ![website-monitoring – website-monitoring py 23-03-2024 18_59_53](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/38c286bd-f2db-41ea-8ca6-e4cdd0563c65)
 
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/38c286bd-f2db-41ea-8ca6-e4cdd0563c65" width="800">
 
  -----------------------------------------------------------------------------
  
@@ -121,10 +124,13 @@ steps required to install docker
 
 ![website-monitoring – website-monitoring py 23-03-2024 19_45_50](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/bd553717-5019-46e3-9333-9d66679a9ee6)
 
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/bd553717-5019-46e3-9333-9d66679a9ee6" width="800">
 
 
 ![SITE DOWN - rajeevmardi111@gmail com - Gmail and 39 more pages - Profile 1 - Microsoft​ Edge 10-04-2024 23_47_37](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1319217a-238b-4851-be3c-522ea08c8689)
 
+
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1319217a-238b-4851-be3c-522ea08c8689" width="800">
 
 ###   Python script that automatically restarts the application & server when the application is down
 
@@ -139,6 +145,9 @@ steps required to install docker
 
 ![website-monitoring – website-monitoring py 24-03-2024 11_20_30](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6)
 
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6" width="48">
+
+
 2. restart_server_and_container() Function:
 
  * Initiates a reboot of the specified EC2 instance using the ```reboot_instances()``` method from the ```boto3``` library.
@@ -148,6 +157,7 @@ steps required to install docker
 
 ![website-monitoring – website-monitoring py 25-03-2024 11_17_34](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/ed4beb28-7232-4fa8-8693-c7a7ee2c969d)
 
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/ed4beb28-7232-4fa8-8693-c7a7ee2c969d" width="800">
 
 
 
@@ -166,6 +176,8 @@ steps required to install docker
 
   ![website-monitoring – website-monitoring py 25-03-2024 12_48_12](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1222ae49-b614-440e-a0c6-d2aec8687d21)
 
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1222ae49-b614-440e-a0c6-d2aec8687d21" width="800">
+
 
 2. Scheduler:
 
@@ -178,6 +190,6 @@ steps required to install docker
 ![website-monitoring – website-monitoring py 25-03-2024 12_04_25](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/e87cada9-5658-49eb-b609-1d12b154c980)
 
 
-
+<img src="https://github.com/favicon.ico](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/e87cada9-5658-49eb-b609-1d12b154c980" width="800">
 
 
