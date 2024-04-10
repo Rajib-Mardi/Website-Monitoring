@@ -129,21 +129,23 @@ steps required to install docker
 ###   Python script that automatically restarts the application & server when the application is down
 
 
-1. restart_server_and_container() Function:
 
- * Initiates a reboot of the specified EC2 instance using the ```reboot_instances()``` method from the ```boto3``` library.
- * Checks the status of the EC2 instance in a loop until it is in the 'running' state.
- * Upon reaching the 'running' state, it waits for 100 seconds and then calls the ```restart_container()``` function.
 
-2. restart_container() Function:
+1. restart_container() Function:
 
   * Establishes an SSH connection to the specified host (18.143.73.242) using the ```paramiko``` library.
   * Executes a Docker start command (```docker start deed03b844af```) to restart the Docker container with the specified container ID (deed03b844af).
   * Prints the output of the Docker start command.
 
-
- 
 ![website-monitoring – website-monitoring py 24-03-2024 11_20_30](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6)
+
+2. restart_server_and_container() Function:
+
+ * Initiates a reboot of the specified EC2 instance using the ```reboot_instances()``` method from the ```boto3``` library.
+ * Checks the status of the EC2 instance in a loop until it is in the 'running' state.
+ * Upon reaching the 'running' state, it waits for 100 seconds and then calls the ```restart_container()``` function.
+ 
+
 
 
 
@@ -159,6 +161,9 @@ steps required to install docker
 * If the response status code is not '200', it prints "Application down fix it!" and sends a notification email using the ```send_notification()``` function.
 * If an exception occurs during the request (e.g., connection error), it prints the error message and sends a notification email.
 * If the application is not accessible at all, it sends a notification email and restarts both the server and the container using the ```restart_server_and_container()``` function.
+
+![website-monitoring – website-monitoring py 25-03-2024 11_17_34](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/ed4beb28-7232-4fa8-8693-c7a7ee2c969d)
+
   
 
 2. Scheduler:
