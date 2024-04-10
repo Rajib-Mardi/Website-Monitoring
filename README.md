@@ -194,6 +194,6 @@ steps required to install docker
 
 
 
-<img src="https://github.com/favicon.ico](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/e87cada9-5658-49eb-b609-1d12b154c980" width="800">
+<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/e87cada9-5658-49eb-b609-1d12b154c980" width="800">
 
 
