@@ -53,12 +53,8 @@ steps required to install docker
 #### access the nginx server using the public ip and port 8080
 
 
-![Welcome to nginx! - Brave 25-03-2024 19_19_57](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/d94e3559-05bb-47f8-8fa9-bc68e136ad50)
-
-
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/d94e3559-05bb-47f8-8fa9-bc68e136ad50" width="800">
 
-![MINGW64__c_Users_Rajib_Downloads 25-03-2024 11_17_50](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/8e6648c5-90ee-44d2-bc1e-e1223690a5b3)
 
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/8e6648c5-90ee-44d2-bc1e-e1223690a5b3" width="800">
 
@@ -79,8 +75,6 @@ steps required to install docker
 
 * This script is used for monitoring the availability and health of the application hosted at the specified URL. If the application is reachable and returns a successful response (status code 200), it indicates that the application is running correctly. Otherwise, it suggests that application is down.
 
-
-![website-monitoring – website-monitoring py 23-03-2024 18_59_53](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/38c286bd-f2db-41ea-8ca6-e4cdd0563c65)
 
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/38c286bd-f2db-41ea-8ca6-e4cdd0563c65" width="800">
 
@@ -122,12 +116,9 @@ steps required to install docker
 * This script is used to monitor the status of a website and receive email notifications if the site goes down. It relies on Gmail's SMTP server for sending emails securely, and it uses environment variables to store sensitive information such as email credentials.
 
 
-![website-monitoring – website-monitoring py 23-03-2024 19_45_50](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/bd553717-5019-46e3-9333-9d66679a9ee6)
-
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/bd553717-5019-46e3-9333-9d66679a9ee6" width="800">
 
 
-![SITE DOWN - rajeevmardi111@gmail com - Gmail and 39 more pages - Profile 1 - Microsoft​ Edge 10-04-2024 23_47_37](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1319217a-238b-4851-be3c-522ea08c8689)
 
 
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1319217a-238b-4851-be3c-522ea08c8689" width="800">
@@ -143,9 +134,6 @@ steps required to install docker
   * Executes a Docker start command (```docker start deed03b844af```) to restart the Docker container with the specified container ID (deed03b844af).
   * Prints the output of the Docker start command.
 
-![website-monitoring – website-monitoring py 24-03-2024 11_20_30](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6)
-
-
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6" width="800">
 
 
@@ -155,8 +143,6 @@ steps required to install docker
  * Checks the status of the EC2 instance in a loop until it is in the 'running' state.
  * Upon reaching the 'running' state, it waits for 100 seconds and then calls the ```restart_container()``` function.
  
-
-![website-monitoring – website-monitoring py 25-03-2024 11_17_34](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/ed4beb28-7232-4fa8-8693-c7a7ee2c969d)
 
 
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/ed4beb28-7232-4fa8-8693-c7a7ee2c969d" width="800">
@@ -175,22 +161,13 @@ steps required to install docker
 * If an exception occurs during the request (e.g., connection error), it prints the error message and sends a notification email.
 * If the application is not accessible at all, it sends a notification email and restarts both the server and the container using the ```restart_server_and_container()``` function.
 
-
-  ![website-monitoring – website-monitoring py 25-03-2024 12_48_12](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1222ae49-b614-440e-a0c6-d2aec8687d21)
-
 <img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1222ae49-b614-440e-a0c6-d2aec8687d21" width="800">
 
 
 2. Scheduler:
 
 * The script schedules the ```monitor_application()``` function to run every 5 seconds using the ```schedule``` module.
-* Inside the ```while True``` loop, it continuously checks for pending scheduled tasks and executes them.
-
-
-
-
-![website-monitoring – website-monitoring py 25-03-2024 12_04_25](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/e87cada9-5658-49eb-b609-1d12b154c980)
-
+* Inside the ```while True``` loop, it continuously checks for pending scheduled tasks and executes them
 
 
 
