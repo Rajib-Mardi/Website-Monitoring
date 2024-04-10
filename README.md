@@ -70,6 +70,9 @@ steps required to install docker
 * This script is used for monitoring the availability and health of the application hosted at the specified URL. If the application is reachable and returns a successful response (status code 200), it indicates that the application is running correctly. Otherwise, it suggests that application is down.
 
 
+![website-monitoring – website-monitoring py 23-03-2024 18_59_53](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/38c286bd-f2db-41ea-8ca6-e4cdd0563c65)
+
+
 
 ### Python script that sends an email notification when website is down
 
