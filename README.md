@@ -73,7 +73,8 @@ steps required to install docker
 ![website-monitoring – website-monitoring py 23-03-2024 18_59_53](https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/38c286bd-f2db-41ea-8ca6-e4cdd0563c65)
 
 
-
+ -----------------------------------------------------------------------------
+ 
 ### Python script that sends an email notification when website is down
 
 
