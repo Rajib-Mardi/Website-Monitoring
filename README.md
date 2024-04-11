@@ -80,7 +80,8 @@ steps required to install docker
 * This script is used for monitoring the availability and health of the application hosted at the specified URL. If the application is reachable and returns a successful response (status code 200), it indicates that the application is running correctly. Otherwise, it suggests that application is down.
 
 
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/38c286bd-f2db-41ea-8ca6-e4cdd0563c65" width="800">
+
+<img src="https://github.com/Rajib-Mardi/Complete-CI-CD-Pipeline-with-EKS-and-AWS-ECR/assets/96679708/30219566-f2be-436d-bee4-51badb17469c" width="800">
 
  -----------------------------------------------------------------------------
  
@@ -120,12 +121,14 @@ steps required to install docker
 * This script is used to monitor the status of a website and receive email notifications if the site goes down. It relies on Gmail's SMTP server for sending emails securely, and it uses environment variables to store sensitive information such as email credentials.
 
 
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/bd553717-5019-46e3-9333-9d66679a9ee6" width="800">
+<img src="https://github.com/Rajib-Mardi/Complete-CI-CD-Pipeline-with-EKS-and-AWS-ECR/assets/96679708/36c1f126-9692-432e-a9cc-445128ce356c" width="800">
 
 
 ----------------------------------------------------------------------------------------
 
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1319217a-238b-4851-be3c-522ea08c8689" width="800">
+
+
+<img src="https://github.com/Rajib-Mardi/Complete-CI-CD-Pipeline-with-EKS-and-AWS-ECR/assets/96679708/78cd92a2-3f6e-4d59-b073-16b3ec50bcbd" width="800">
 
 -------------------------------------------------------------------------------------------
 ###   Python script that automatically restarts the application & server when the application is down
