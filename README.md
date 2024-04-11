@@ -142,7 +142,8 @@ steps required to install docker
   * Executes a Docker start command (```docker start deed03b844af```) to restart the Docker container with the specified container ID (deed03b844af).
   * Prints the output of the Docker start command.
 
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/60813ee9-d8e2-4ee6-99ff-8a1890e1eba6" width="800">
+
+<img src="https://github.com/Rajib-Mardi/Complete-CI-CD-Pipeline-with-EKS-and-AWS-ECR/assets/96679708/78c11974-a134-401e-847e-1d28179ef96a" width="800">
 
 
 2. restart_server_and_container() Function:
@@ -152,14 +153,14 @@ steps required to install docker
  * Upon reaching the 'running' state, it waits for 100 seconds and then calls the ```restart_container()``` function.
  
 
-
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/ed4beb28-7232-4fa8-8693-c7a7ee2c969d" width="800">
+<img src="https://github.com/Rajib-Mardi/Complete-CI-CD-Pipeline-with-EKS-and-AWS-ECR/assets/96679708/281c978a-6600-497d-8708-b37120b2ac5d" width="800">
 
 
 
 -------------------------------------------------------------------------------
 
-###  Python script continuously monitors the availability of an application by periodically sending an HTTP GET request to a specific URL.
+###  Python script continuously monitors the availability of an application by periodically sending an HTTP GET request to a specific URL(Handle connection error)
+
 
 1. monitor_application() Function:
 
@@ -169,7 +170,9 @@ steps required to install docker
 * If an exception occurs during the request (e.g., connection error), it prints the error message and sends a notification email.
 * If the application is not accessible at all, it sends a notification email and restarts both the server and the container using the ```restart_server_and_container()``` function.
 
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/1222ae49-b614-440e-a0c6-d2aec8687d21" width="800">
+
+
+<img src="https://github.com/Rajib-Mardi/Complete-CI-CD-Pipeline-with-EKS-and-AWS-ECR/assets/96679708/d60723a7-1f30-4d33-831c-277305f49d3e" width="800">
 
 ------------------------------------------------------
 2. Scheduler:
@@ -179,6 +182,6 @@ steps required to install docker
 
 
 
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/e87cada9-5658-49eb-b609-1d12b154c980" width="800">
+<img src="https://github.com/Rajib-Mardi/Complete-CI-CD-Pipeline-with-EKS-and-AWS-ECR/assets/96679708/0bd4c306-dbe1-4de8-ad3b-a61ab373cbb1" width="800">
 
 ---------------------------------------------------------------------
