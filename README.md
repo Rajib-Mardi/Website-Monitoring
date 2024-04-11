@@ -53,11 +53,14 @@ steps required to install docker
 #### access the nginx server using the public ip and port 8080
 
 
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/d94e3559-05bb-47f8-8fa9-bc68e136ad50" width="800">
+<img src="https://github.com/Rajib-Mardi/Complete-CI-CD-Pipeline-with-EKS-and-AWS-ECR/assets/96679708/8c149b6d-d384-42d5-b25a-48b0fa85a24f" width="800">
 
 ---------------------------------------------------------------------------------
 
-<img src="https://github.com/Rajib-Mardi/Website-Monitoring/assets/96679708/8e6648c5-90ee-44d2-bc1e-e1223690a5b3" width="800">
+
+
+
+<img src="https://github.com/Rajib-Mardi/Complete-CI-CD-Pipeline-with-EKS-and-AWS-ECR/assets/96679708/36a93c62-33f6-4360-bdd4-bd3f596d0f3d" width="800">
 
 
 ### Python script that monitors the website by accessing it and validating the HTTP response
