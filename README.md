@@ -1,6 +1,5 @@
-###  Written automation script for monitoring a web application and notifying about the status as well as recovering the application
-###  Project:
 
+### Project
 * Website Monitoring and Recovery
 ### Technologiesused:
 * Python, AWS , Docker, Linux
