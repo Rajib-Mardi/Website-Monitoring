@@ -1,5 +1,5 @@
-### Demo Project:
-* Website Monitoring and Recovery
+###  Project:
+* Written automation script for monitoring a web application and notifying about the status as well as recovering the application
 ### Technologiesused:
 * Python, AWS , Docker, Linux
 
